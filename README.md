@@ -209,3 +209,28 @@ This project uses ESLint for linting. That is configured in `.eslintrc.js`.
 ### Formatting
 
 We use [Prettier](https://prettier.io/) for auto-formatting in this project. It's recommended to install an editor plugin (like the [VSCode Prettier plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)) to get auto-formatting on save. There's also a `npm run format` script you can run to format all files in the project.
+
+#### Databases info
+
+Postgres cluster quality-control-2400-db created
+  Username:    postgres
+  Password:    2i6jvJ2e2kLQ3bE
+  Hostname:    quality-control-2400-db.internal
+  Flycast:     fdaa:9:14c0:0:1::f
+  Proxy port:  5432
+  Postgres port:  5433
+  Connection string: postgres://postgres:2i6jvJ2e2kLQ3bE@quality-control-2400-db.flycast:5432
+DATABASE_URL=postgres://quality_control_2400:X5Lybk8235dtvoD@quality-control-2400-db.flycast:5432/quality_control_2400?sslmode=disable
+
+
+
+
+Postgres cluster quality-control-2400-staging-db created     
+  Username:    postgres
+  Password:    YPXSVmfjLldLayG
+  Hostname:    quality-control-2400-staging-db.internal      
+  Flycast:     fdaa:9:14c0:0:1::10
+  Proxy port:  5432
+  Postgres port:  5433
+  Connection string: postgres://postgres:YPXSVmfjLldLayG@quality-control-2400-staging-db.flycast:5432
+DATABASE_URL=postgres://quality_control_2400_staging:4ioLrcdhat9QAsq@quality-control-2400-staging-db.flycast:5432/quality_control_2400_staging?sslmode=disable
